@@ -1,0 +1,22 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#root{
+  height:100vh;
+}
+.layout{
+   display: grid;
+   height: 100%;
+   grid-template-areas: "header" "main" "footer";
+   grid-template-rows: 50px 1fr 50px;
+}
+
+
+main {
+  grid-area: main;
+}
+

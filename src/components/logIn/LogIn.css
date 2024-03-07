@@ -1,0 +1,14 @@
+.cascading-right {
+    margin-right: -50px;
+  }
+  
+  @media (max-width: 900px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+
+  .logIn_container{
+    max-width: 70%;
+    height: 70vh;
+  }
